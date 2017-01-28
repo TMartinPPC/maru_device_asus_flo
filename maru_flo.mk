@@ -26,8 +26,7 @@ PRODUCT_MODEL := Maru on the Nexus 7 (2013)
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    TimeService
+    Launcher3
 
 DEVICE_PACKAGE_OVERLAYS += \
     device/asus/flo/overlay_maru/location \
